@@ -20,6 +20,7 @@ def sort_array_char_count(strings)
   end
 end
 
+# do the challenge here
 def swap_elements(array)
   second_val = array[1]
   array[1] = array[2]
@@ -48,6 +49,7 @@ def sum_array(integers)
   integers.inject {|sum, number| sum + number}
 end
 
+# can this be cleaned up?
 def add_s(array)
   second_val = array[1]
   array.each_with_index.collect {|string, index| string << "s" if index != 1}
