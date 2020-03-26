@@ -33,6 +33,7 @@ def swap_elements_from_to(array, index, destination_index)
   store_second = array[destination_index]
   array[destination_index] = store_first
   array[index] = store_second
+  array
 end
 
 def reverse_array(integers)
