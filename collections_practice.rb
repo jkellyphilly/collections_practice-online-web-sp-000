@@ -28,6 +28,7 @@ def swap_elements(array)
   array
 end
 
+# challenge: swap elements from 2 specified indices
 def swap_elements_from_to(array, index, destination_index)
   store_first = array[index]
   store_second = array[destination_index]
